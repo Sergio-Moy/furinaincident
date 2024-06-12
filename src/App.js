@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import Countdown from './countdown';
 import './App.css';
+import gif from './img.gif'
 
 function App() {
+  const targetDate = '2024-06-25T18:00:00'; // June 25th, 6 PM
+  const targetTimezone = 'America/Lima'; // UTC-5 timezone (Lima, Peru)
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1><Countdown targetDate={targetDate} targetTimezone={targetTimezone} /></h1>
+        <p>left until the Furina incident</p>
+        <img src={gif}></img>
       </header>
     </div>
   );
