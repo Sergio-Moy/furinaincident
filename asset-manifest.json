@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/furinaincident/static/css/main.efcafccc.css",
+    "main.js": "/furinaincident/static/js/main.43929a22.js",
+    "static/js/453.307e3dcf.chunk.js": "/furinaincident/static/js/453.307e3dcf.chunk.js",
+    "static/media/img.gif": "/furinaincident/static/media/img.88b63ca961204a54bd26.gif",
+    "index.html": "/furinaincident/index.html",
+    "main.efcafccc.css.map": "/furinaincident/static/css/main.efcafccc.css.map",
+    "main.43929a22.js.map": "/furinaincident/static/js/main.43929a22.js.map",
+    "453.307e3dcf.chunk.js.map": "/furinaincident/static/js/453.307e3dcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efcafccc.css",
+    "static/js/main.43929a22.js"
+  ]
+}
